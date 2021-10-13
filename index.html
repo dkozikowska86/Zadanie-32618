@@ -8,15 +8,18 @@
 </head>
 <body>
    
-    <form action="">
-        <p>
-            <!-- aby dodać tekst do inputa używamy value -->
-            <!-- aby dodać tekst obok inputa, używamy legend -->
-            <input type="text" value="Imię">
-            <input type="text" value="Nazwisko">
+    
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Twoje dane:</legend><br>
+            <label for="fname">Imię: </label><br>
+            <input type="text" value=""><br><br>
+            <label for="lname">Nazwisko: </label><br>
+            <input type="text" value=""><br><br>
             <input type="submit" value="Wyślij">
-        </p>
+        </fieldset>
     </form>
+
 
 </body>
 </html>
